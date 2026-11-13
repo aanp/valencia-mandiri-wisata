@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <defs>
+    <!-- Path melengkung bagian bawah untuk teks "Valencia Mandiri" -->
+    <path id="textArcBottom" d="M 76,260 A 174,174 0 0,0 424,260" fill="none" />
+  </defs>
+
+  <!-- Lingkaran Luar Biru Tua -->
+  <circle cx="250" cy="250" r="246" fill="#002f9b" />
+
+  <!-- Garis Lingkaran Putih Tipis Luar -->
+  <circle cx="250" cy="250" r="230" fill="#ffffff" />
+
+  <!-- Cincin Biru Muda (Sky Blue) -->
+  <circle cx="250" cy="250" r="225" fill="#52b6f7" />
+
+  <!-- Garis Lingkaran Putih Tipis Dalam -->
+  <circle cx="250" cy="250" r="203" fill="#ffffff" />
+
+  <!-- Garis Lingkaran Biru Tua Tipis Pembatas Dalam -->
+  <circle cx="250" cy="250" r="198" fill="#002f9b" />
+
+  <!-- Lingkaran Utama Putih di Tengah -->
+  <circle cx="250" cy="250" r="195" fill="#ffffff" />
+
+  <!-- Monogram Serif "VM" Biru Tua di Tengah Atas -->
+  <g fill="#002f9b">
+    <!-- Huruf V dengan Serif Klasik & Garis Interlock -->
+    <!-- Serif Kiri Atas V -->
+    <rect x="85" y="138" width="56" height="8" />
+    <!-- Kaki Kiri V (Tebal) -->
+    <polygon points="97,146 131,146 190,300 168,300" />
+    <!-- Kaki Kanan V (Double-line / Interlock dengan M) -->
+    <polygon points="168,300 179,300 245,146 234,146" />
+    <polygon points="184,300 196,300 262,146 250,146" />
+    <!-- Serif Kanan Atas V / Puncak Kiri M -->
+    <rect x="225" y="138" width="44" height="8" />
+    <!-- Serif Bawah V -->
+    <rect x="160" y="296" width="45" height="8" />
+
+    <!-- Huruf M dengan Serif Klasik -->
+    <!-- Diagonal Tengah Kiri M (Dari Puncak Kiri M ke Bawah Tengah M) -->
+    <polygon points="249,146 279,146 335,286 312,286" />
+    <!-- Diagonal Tengah Kanan M (Naik ke Puncak Kanan M) -->
+    <polygon points="262,296 274,296 344,146 332,146" />
+    <!-- Kaki Kanan M (Tebal Turun ke Kanan Bawah) -->
+    <polygon points="335,146 367,146 422,296 389,296" />
+
+    <!-- Serif Bawah Kaki Tengah M -->
+    <rect x="245" y="296" width="46" height="8" />
+    <!-- Serif Bawah Kaki Kanan M -->
+    <rect x="376" y="296" width="56" height="8" />
+  </g>
+
+  <!-- Teks Melengkung "Valencia Mandiri" Hitam Serif Tebal -->
+  <text
+    fill="#000000"
+    font-family="Georgia, 'Times New Roman', Times, serif"
+    font-size="47"
+    font-weight="900"
+    letter-spacing="1.5"
+  >
+    <textPath href="#textArcBottom" startOffset="50%" text-anchor="middle">
+      Valencia Mandiri
+    </textPath>
+  </text>
+</svg>
